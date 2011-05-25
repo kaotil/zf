@@ -1,5 +1,6 @@
 <?php
 // テスト
+// テスト
 
 class MemberController extends Zend_Controller_Action
 {
