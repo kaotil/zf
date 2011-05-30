@@ -36,7 +36,7 @@ var_dump($comment);
                 foreach ($form->getMessages() as $key => $message) {
 #$form->setMessage('[%$key%]には半角英数字以外の文字が含まれています。',Zend_Validate_Alnum::regexNotMatch);
 #$form->setErrorMessages('[%$key%]には半角英数字以外の文字が含まれています。',Zend_Validate_Alnum::regexNotMatch);
-$form->setErrorMessages(array('regexNotMatch' => 'My message here'));
+#$form->setErrorMessages(array('regexNotMatch' => 'My message here'));
                     foreach ($message as $type => $val) {
                         echo "$key => $val ($type)<br>";
                     }
