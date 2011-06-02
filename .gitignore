@@ -1,5 +1,6 @@
 /*
 !/zf/application
+/zf/application/smarty/templates_c/**/*
+!/zf/public
 !/zf/library/smarty/libs/Zend_View_Smarty.class.php
-/zf/application/smarty/templates_c/*
 !.gitignore

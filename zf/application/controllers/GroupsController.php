@@ -23,7 +23,13 @@ class GroupsController extends Zend_Controller_Action
     public function indexAction()
     {
         // action body
-        $this->view->name = 'yossy';
+        $this->view->act = 'index';
+    }
+
+    public function resultAction()
+    {
+        // action body
+        $this->view->act = 'result';
     }
 
 
